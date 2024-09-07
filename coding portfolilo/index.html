@@ -1,0 +1,192 @@
+<!-- portfolio version 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="look.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<!-- main website content -->
+<body>
+    
+    <header class="header">
+        <a href="#AG" class="logo">A<span>G</span></a>
+        
+        <i class='bx bx-menu' id="menuicon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#experience" id="exp">Languages</a>
+            <a href="#portfolio">Portfolio</a>
+            
+            <!-- <a href="#contact">Contact</a> -->
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="homecontent">
+            <h1>Hello I'm <span>Anthony</span></h1>
+            <h3 class="txtanimation">Software Developer</h3>
+            <p>I'm a newly Graduated Computer Science Major, who loves to enginner, build and program robots in all shapes and sizes using the power of ROS and hopes and dreams.</p>
+            
+            <div class="socialicons">
+                <a href="https://www.linkedin.com/in/anthony-goddard-022676324/" target="blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://github.com/Just-A-Tea-Drinker" target="blank">
+                    <i class='bx bxl-github' ></i>
+                </a>
+            </div>
+
+            <!-- <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div> -->
+        </div>
+            <div class="homeimage">
+                <img src="imagerobto.png">
+            </div>
+
+        
+    </section>
+
+    <section class="Education" id="education">
+        <h2 class="eduheading">Educational Background</h2>
+
+        <div class="timelineitem">
+            <div class="timelinedot"></div>
+                <div class="timelinedate">2024</div>
+                <div class="timelinecontent">
+                    <h3>Bachelor's Degree</h3>
+                    <p>Bachelor of Science: Computer Science: 1st Degree with Honours at the University of Lincoln
+                    </p>
+
+                </div>
+            
+        </div>
+
+        <div class="timelineitem">
+            <div class="timelinedot"></div>
+                <div class="timelinedate" id="move">2021</div>
+                <div class="timelinecontent">
+                    <h3>A-Levels</h3>
+                    <p>Skegness Grammar School, Skegness, LIN, 2021
+                        A-Levels
+                        •	Chemistry: C
+                        •	Computer Science: D*/A*
+                        •	English: A
+                        
+                    </p>
+                </div>
+            
+        </div>
+
+        <div class="timelineitem">
+            <div class="timelinedot"></div>
+                <div class="timelinedate">2019</div>
+                <div class="timelinecontent">
+                    <h3>GCSEs</h3>
+                    <p>The Giles Academy, Boston, LIN, 2019
+                        Main GCSEs
+                        •	Mathematics: 7
+                        •	Science: 9-8
+                        •	Computer Science: 6
+                        •	English: 5-6
+                        
+
+                    </p>
+                </div>
+            
+        </div>
+
+    </section>
+
+    <section class="Experience" id="experience">
+        <h2 class="eduheading">Coding Languages</h2>
+        <!-- <h3>Coding Languages</h3> -->
+        <div id="graph">
+            <li><h2></h2></li>
+            <li><h2 class="textmove"><br>Python - 6 years</h2><span class="bar"><span class="Python"></span></span></li>
+            <li><h2 class="textmove"><br>C++ - 3 years</h2><span class="bar"><span class="A"></span></span></li>
+            <li><h2 class="textmove"><br>SQL - 2 years</h2><span class="bar"><span class="SQL"></span></span></li>
+            <li><h2 class="textmove"><br>C# - 1 year</h2><span class="bar"><span class="BB"></span></span></li>
+            </div>
+    </section>
+
+    <section class="Portfolio" id="portfolio">
+        <h2 class="eduheading">Portfolio</h2>
+        <div class="portfoliobox">
+
+            <div class="wrap">
+                <a href="https://github.com/Just-A-Tea-Drinker/AMR-Assessment" target="blank">
+                    <div class="portfolioitem">
+                        
+                        <img src="robto.png">
+                        <h2 class="pt">Autonomous Mobile Robotics</h2>
+                        <div class="codinglang">
+                            <h3 class="classes"><span>PYTHON</span><span>LINUX</span></h3>
+                            <!-- <h3 class="classes">L2</h3> -->
+                        </div>
+                        <p>A robotics application developed on the LIMO platform, used to move coloured blocks of red and green to their respective coloured walls.<br><br><b>Developed for the University of Lincoln.</b></p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Just-A-Tea-Drinker/Python-Assitance" target="blank">
+                    <div class="portfolioitem">
+                        <img src="lights.png">
+                        <h2 class="pt">Personal Assistant</h2>
+                        <div class="codinglang">
+                            <h3 class="classes"><span>PYTHON</span></h3>
+                            <!-- <h3 class="classes">L2</h3> -->
+                        </div>
+                        <p>A basic python program capable of doing basic tasks such as opening desktop applications, sending an email, navigating YouTube using voice commands, with a complementary GUI or "face" to the program
+                            written in Python.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Just-A-Tea-Drinker/Parallel_Assignment" target="blank">
+                    <div class="portfolioitem">
+                        <img src="opencl.png">
+                        <h2 class="pt">OpenCL</h2>
+                        <div class="codinglang">
+                            <h3 class="classes"><span>C++</span></h3>
+                            <!-- <h3 class="classes">L2</h3> -->
+                        </div>
+                        <p>A program written for performing histogram equalisation on a variety of images with different bit depths 8,16 and 24 this parallel program also allows for variable/custom bin sizes and uses a variety of comtemporary parrallel techniques in Open Cl
+                            Written in C++.<br><br><b>Developed for the University of Lincoln.</b></p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- <section class="Contact" id="contact">
+        <h2 class="eduheading">Contact Me</h2>
+
+        <form action="">
+            <div class="inputs">
+                <div class="firstsec">
+                    <div class="inputbox">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                </div>
+                    <div class="inputbox2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Main Message"></textarea>
+                    
+                
+                </div>
+                <input type="submit" value="Send" class="button">
+            </div>
+        </form>
+    </section> -->
+
+    <script src="script.js"></script>
+</body>
